@@ -20,8 +20,10 @@ public class AnimalFactory {
 			break;
 		case "dog":
 			animalHome = new Dog();
+			break;
 		default:
 			animalHome = null;
+			break;
 		}
 		return animalHome;
 	}
