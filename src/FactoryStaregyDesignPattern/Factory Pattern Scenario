@@ -1,0 +1,10 @@
+Consider we have one device which has different button with animal image on it. 
+Once we press one button then it do the sound of the animal of image.
+If we create inteface of animal and use switch case to identify animal and store its reference then it works good.
+But,if we want to do some change to number of animal then we have to change the switch statement and it directly affect 
+the client method this should not be good.
+
+We can use factory and strategy design pattern in this case. We can create one different class named AnimalFactory which has one method to create animal according to the name 
+of it and return back the reference to the client. In this case we still have to change animal name in AnimalFacroty class but,
+it will not affect client method. In strategy design pattern instead of storing individual object of the animal we can store it 
+interface so in future if we want to add more animal then we can add it without changing the current code.
