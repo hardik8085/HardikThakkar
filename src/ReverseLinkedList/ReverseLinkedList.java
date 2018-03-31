@@ -6,8 +6,6 @@ public class ReverseLinkedList {
 	public Node createList(){
 			
 			Scanner scanner = new Scanner(System.in);
-			
-			
 			System.out.println("Enter -1 for null value");
 			System.out.println("Enter value of root node");
 			int value =-1;
