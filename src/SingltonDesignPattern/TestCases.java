@@ -13,8 +13,7 @@ public class TestCases {
 		
 		Transaction transaction = Transaction.creteTransaction();
 		Assert.assertNotNull(transaction);
-		Transaction transaction2 = Transaction.creteTransaction();
-		assertEquals(transaction, transaction2);
+		
 		
 	}
 }
